@@ -1,16 +1,17 @@
-
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+//УРОК 4.2: УСЛОВНЫЙ ОПЕРАТОР
 public class Main {
     public static void main(String[] args) {
-        //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-        // to see how IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
-
-        for (int i = 1; i <= 5; i++) {
-            //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
-            // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-            System.out.println("i = " + i);
-        }
+        //Задача 1
+        //У банка появилось мобильное приложение. Поэтому теперь, когда пользователь заходит на сайт с телефона,
+        // ему предлагается скачать приложение с учетом того, какая операционная система у пользователя.
+        //
+        //Напишите программу, которая определяет, чем пользуется клиент (iOS или Android), и выдает соответствующее сообщение:
+        //
+        //Для iOS — «Установите версию приложения для iOS по ссылке».
+        //Для Android — «Установите версию приложения для Android по ссылке».
+        //Объявите переменную clientOS, которая равна 0 или 1 (0 — iOS, 1 — Android).*//
     }
 }
+
+
+
